@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+@media only screen and (max-width:768px){
+    h1{font-size: 2rem;}
+    h3{font-size: 1.7rem;}
+    p{font-size: 1.3rem;}
+    a{font-size: 1.2rem;}
+}
+@media only screen and (min-width:1024px){
+    h1{font-size: 2.2rem;}
+    h3{font-size: 1.7rem;}
+    p{font-size: 1.3rem;}
+    a{font-size: 1.2rem;}
+}

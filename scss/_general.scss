@@ -1,0 +1,23 @@
+header{
+    background-image: linear-gradient (to bottom, green, transparent);
+    nav{
+        padding: 10px;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            li{
+                list-style-type: none;
+                padding: 5px;
+                a{
+                    text-decoration: none;
+                    transition: all 2s;
+                    &:hover{
+                        color: cadetblue;
+                        background-color: bisque;
+                        border-radius:20px;
+                    }
+                }
+            }
+        }
+    }
+}

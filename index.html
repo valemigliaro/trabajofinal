@@ -7,12 +7,14 @@
     <meta name="description" content="Las tablas más hermosas y resistentes hechas con la mejor mano de obra y mucho amor">
     <meta name="keywords" content="TABLAS DE MADERA, TABLAS DE DISEÑO, TABLAS HECHAS A MANO, ARTE EN MADERA">
     <title>Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/loguito verde.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="grid">
     <header>
-        <div>
+        <div class="logo">
             <img src="img/loguito verde.JPG" alt="loguito">        
         </div>
         <nav>
@@ -25,23 +27,39 @@
             </ul>
         </nav>
     </header>
-    <main class="flexIndex">
-         <div class="grid">
-            <p class="textoDeinicio" style="width: 100%;" >¿Qué es CERNE? Cerne es el corazón de la madera, describe el diccionario, la parte dura, lo que se utiliza para construcciones importantes. Por eso decidimos ponerle ese nombre a nuestro emprendimiento, porque viene desde el corazón. Cuando empezamos a armar nuestra casa no sabíamos nada de carpintería, y gracias a la ayuda y apoyo de amigos carpinteros y aficionados al área fuimos animándonos cada vez más. Después de armar la estructura de la casa, hacer los muebles y la parte decorativa nos propusimos compartir un poco de las artesanías que fuimos creando.</p>
-         </div>
-         <img src="img/valetodo/valetodo.jpg" alt="valetodo" style="width: 100%;">
-         <div>
-            <p class="textoDeinicio" style="width: 100%;"> Este proyecto familiar, que nace del apoyo de amigos y gente cercana al corazón, tiene como finalidad poder seguir creciendo en el conocimiento inabarcable del trabajo con la madera y disfrutar de vivir rodeados de la naturaleza que nos abraza.Todo producto CERNE conserva las particularidades de cada madera, es una pieza artesanal única e irrepetible. Utilizamos retazos de madera reciclada que ha nacido en el monte misionero rodeada de un ecosistema al que queremos cuidar y preservar, por esto, aprovechamos al máximo cada trozo de tabla</p>
-         <img src="img/la juntada/tabla la juntada.jpg" alt="la juntada" style="width: 100%;">
+    <main>
+        <div class="imgEncabezado" data-aos="fade-up" data-aos-duration="3000">
+            <img src="img/valetodo/valetodo.jpg" alt="valetodo" class="img-fluida">
         </div>
-     </main>
+        <div class="titulo" data-aos="fade-up" data-aos-duration="3000">
+            <h1>¿Qué es CERNE?</h1>
+        </div>
+        <div class="texto" data-aos="fade-up" data-aos-duration="3000">
+            <p>Cerne es el corazón de la madera, describe el diccionario, la parte dura, lo que se utiliza para construcciones importantes. Por eso decidimos ponerle ese nombre a nuestro emprendimiento, porque viene desde el corazón. Cuando empezamos a armar nuestra casa no sabíamos nada de carpintería, y gracias a la ayuda y apoyo de amigos carpinteros y aficionados al área fuimos animándonos cada vez más. Después de armar la estructura de la casa, hacer los muebles y la parte decorativa nos propusimos compartir un poco de las artesanías que fuimos creando. Este proyecto familiar, que nace del apoyo de amigos y gente cercana al corazón, tiene como finalidad poder seguir creciendo en el conocimiento inabarcable del trabajo con la madera y disfrutar de vivir rodeados de la naturaleza que nos abraza.Todo producto CERNE conserva las particularidades de cada madera, es una pieza artesanal única e irrepetible. Utilizamos retazos de madera reciclada que ha nacido en el monte misionero rodeada de un ecosistema al que queremos cuidar y preservar, por esto, aprovechamos al máximo cada trozo de tabla</p>
+        </div>
+        <div class="imgM" data-aos="fade-up" data-aos-duration="3000">
+           <img src="img/la juntada/tabla la juntada.jpg" alt="la juntada" class="img-fluida">
+        </div>
+    </main>
     <footer>
+        <div class="logo">
+            <img src="img/loguito verde.JPG" alt="loguito">        
+        </div>
         <div class="rrss">
+            <h3>Redes Sociales</h3>
+            <img src="img/Logo ig.JPG" alt="logo ig">
             <a href="https://instagram.com/cernearteenmadera?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a>
+        </div>
+        <div class="contacto">  
             <h3>Contacto</h3>
-            <p class="Mail">Mail: infocerne.arteenmadera@gmail.com</p>
-            <p class="telefono">Teléfono: 168335019</p>
+            <p>Mail: infocerne.arteenmadera@gmail.com</p>
+            <p>Teléfono: 168335019</p>
         </div>
     </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
