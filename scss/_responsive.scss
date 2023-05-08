@@ -1,5 +1,21 @@
 .grid{
-    display: grid;
+    display:grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3,auto);
+}
+@media only screen and (min-width:1023px){
+    main{
+        display:grid;
+        grid-template-areas:
+        "imgEncabezado imgEncabezado"
+        "titulo titulo"
+        "parrafo parrafo"
+        "imgM imgM";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(3, auto);
+        .imgEncabezado{grid-area:imgEncabezado;}
+        .titulo{grid-area:titulo;}
+        .texto{grid-area:parrafo;}
+        .imgM{grid-area:imgM;}
+    }
 }

@@ -5,13 +5,35 @@
   grid-template-rows: repeat(3, auto);
 }
 
+@media only screen and (min-width: 1023px) {
+  main {
+    display: grid;
+    grid-template-areas: "imgEncabezado imgEncabezado" "titulo titulo" "parrafo parrafo" "imgM imgM";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, auto);
+  }
+  main .imgEncabezado {
+    grid-area: imgEncabezado;
+  }
+  main .titulo {
+    grid-area: titulo;
+  }
+  main .texto {
+    grid-area: parrafo;
+  }
+  main .imgM {
+    grid-area: imgM;
+  }
+}
 .img-fluida {
   width: 100%;
   height: auto;
 }
 
 header {
-  background-image: linear-gradient to bottom, green, transparent;
+  background-image: linear-gradient(to bottom, rgb(253, 187, 207), transparent);
+  display: flex;
+  justify-content: space-between;
 }
 header nav {
   padding: 10px;
@@ -35,7 +57,7 @@ header nav ul li a:hover {
 }
 
 footer {
-  background-image: linear-gradient to top, green, transparent;
+  background-image: linear-gradient(to top, green, transparent);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -43,9 +65,11 @@ footer {
 
 @media only screen and (max-width: 768px) {
   footer {
+    background-image: linear-gradient to top, green, transparent;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin: auto;
+    padding-left: 10px;
   }
 }
 body {
@@ -54,16 +78,16 @@ body {
 
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   h3 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   a {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -71,13 +95,14 @@ body {
     font-size: 2.2rem;
   }
   h3 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   a {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 }
+
 /*# sourceMappingURL=style.css.map */

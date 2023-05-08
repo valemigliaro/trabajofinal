@@ -1,19 +1,21 @@
 header{
-    background-image: linear-gradient (to bottom, green, transparent);
+    background-image: linear-gradient(to bottom, rgb(253, 187, 207), transparent);
+    display:flex;
+    justify-content:space-between;
     nav{
-        padding: 10px;
+        padding:10px;
         ul{
-            display: flex;
+            display:flex;
             flex-wrap: wrap;
             li{
                 list-style-type: none;
-                padding: 5px;
+                padding:5px;
                 a{
                     text-decoration: none;
                     transition: all 2s;
                     &:hover{
-                        color: cadetblue;
-                        background-color: bisque;
+                        color:cadetblue;
+                        background-color:bisque;
                         border-radius:20px;
                     }
                 }
