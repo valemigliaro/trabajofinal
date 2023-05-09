@@ -68,7 +68,7 @@ footer {
     background-image: linear-gradient to top, green, transparent;
     flex-direction: column;
     justify-content: center;
-    box-sizing: content-box;
+    padding: 10px;
   }
 }
 body {
@@ -100,7 +100,7 @@ body {
     font-size: 1.5rem;
   }
   a {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 }
 
