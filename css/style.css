@@ -6,22 +6,22 @@
 }
 
 @media only screen and (min-width: 1023px) {
-  main {
+  main1 {
     display: grid;
     grid-template-areas: "imgEncabezado imgEncabezado" "titulo titulo" "parrafo parrafo" "imgM imgM";
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(3, auto);
   }
-  main .imgEncabezado {
+  main1 .imgEncabezado {
     grid-area: imgEncabezado;
   }
-  main .titulo {
+  main1 .titulo {
     grid-area: titulo;
   }
-  main .texto {
+  main1 .texto {
     grid-area: parrafo;
   }
-  main .imgM {
+  main1 .imgM {
     grid-area: imgM;
   }
 }
@@ -52,7 +52,7 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   color: cadetblue;
-  background-color: bisque;
+  background-color: blueviolet;
   border-radius: 20px;
 }
 
@@ -68,8 +68,7 @@ footer {
     background-image: linear-gradient to top, green, transparent;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
-    padding-left: 10px;
+    box-sizing: content-box;
   }
 }
 body {
@@ -81,7 +80,7 @@ body {
     font-size: 3rem;
   }
   h3 {
-    font-size: 1.8rem;
+    font: size 1.3em;
   }
   p {
     font-size: 1.5rem;
